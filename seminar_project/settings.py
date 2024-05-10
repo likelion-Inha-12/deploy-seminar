@@ -4,9 +4,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-cfqb7sg)m8^a3zwyb%n)jn)2^xj1__)cl7ida^g8fop^xr-!&2'
 
-DEBUG = False
+DEBUG = False # production 환경에서는 DEBUG를 False로 해줘야 함
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*'] # ALLOWED_HOST를 본인의 탄력적 ip로 설정해주어야 한다.
 
 INSTALLED_APPS = [
     # my app
